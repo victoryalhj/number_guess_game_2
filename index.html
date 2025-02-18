@@ -5,14 +5,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="./style.css">
+    <script defer src="./main.js"></script>
 </head>
 <body>
-  <h1>숫자 맞추기 게임</h1>
-  <div id="result-area">결과</div>
-  <input type="number" id="user-input">
-  <button id="play-button">GO!</button>
-  
+  <div class="game">
+    <div class="box">
+      <h1>UP & DOWN GAME!</h1>
+      <div id="result-area">THIS IS THE RESULT</div>
+      <div id="chance-area">REMAINING CHANCE : 3 TIMES</div>
+      <div id="computer-number">CORRECT NUMBER : </div>
+      <img id=countdown src="./countdown.gif">
+      <input type="number" id="user-input"/>
+      <button id="play-button">GO!</button>
+      <button id="reset-button">RESET!</button>
+    </div>
+  </div>
 
-  <script src="./main.js"></script>
+
 </body>
 </html>

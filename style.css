@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+}
+.game {
+  background-image: url(./background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.game .box {
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 700px;
+  height: 800px;
+  border: solid var(--color-green) 10px;
+  border-radius: 7px;
+}
+#result-area {
+  font-weight: 700;
+  padding-bottom: 10px;
+  font-size: 20px;
+  font-weight: 700;
+}
+#chance-area {
+  color: red;
+  font-weight: 700;
+  font-size: 40px;
+  padding-bottom: 10px;
+}
+#computer-number {
+  font-size: 20px;
+}
+.game .box #countdown {
+  width: 100%;
+  padding: 50px 0;
+}
+#user-input {
+  width: 300px;
+  height: 40px;
+  box-sizing: border-box;
+}
+#play-button, 
+#reset-button {
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  width: 80px;
+  height: 40px;
+  font-weight: 700;
+}
+#play-button {
+  background-color: green;
+}
+#reset-button {
+  background-color: red;
+}
